@@ -4,8 +4,7 @@ run:
 
 ```
 python -m venv venv
-source venv/bin/activate
+.\venv\Scripts\Activate.ps1
 git submodule update --init --recursive
-cd boxes
-pip install -r requirements.txt
+pip install -e boxes_src/requirements.txt
 ```
